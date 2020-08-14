@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "GPL-3.0-or-later",
     "scripts": {
-        "build": "ng build"
+        "build": "index.html"
     
     }
 }
