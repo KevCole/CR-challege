@@ -1,9 +1,5 @@
 {
     "name": "cloud-resume-challenge",
     "version": "1.0.0",
-    "license": "GPL-3.0-or-later",
-    "scripts": {
-        "build": "index.html"
-    
-    }
+    "license": "GPL-3.0-or-later"
 }
