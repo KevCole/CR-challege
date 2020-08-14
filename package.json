@@ -1,5 +1,9 @@
 {
     "name": "cloud-resume-challenge",
     "version": "1.0.0",
-    "license": "GPL-3.0-or-later"
+    "license": "GPL-3.0-or-later",
+    "scripts": {
+        "start": "node start index.html"
+    
+    }
 }
