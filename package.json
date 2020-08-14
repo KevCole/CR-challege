@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "GPL-3.0-or-later",
     "scripts": {
-        "start": "node start index.html"
+        "build": "ng build"
     
     }
 }
