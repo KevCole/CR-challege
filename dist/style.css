@@ -5,7 +5,7 @@
 @media screen and (min-width:0px) and (max-width:1399px){
 
     main{
-        background-image: url(/images/round.png);
+        background-image: url(/.images/round.png);
     }
 
     .header-container{
@@ -108,7 +108,7 @@
     
     
     main{
-        background-image: url(/images/round.png);
+        background-image: url(./images/round.png);
     }
     
     .header-container {
