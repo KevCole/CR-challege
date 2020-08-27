@@ -56,6 +56,7 @@
     .job-title{
         font-family: 'Almarai', sans-serif;
         font-weight: 700;
+        font-size: 20px;
         
     }
 
@@ -103,6 +104,7 @@
 
    .last-name{
     font-size: 20px;
+    font-weight: 800;
    }
 
 }
