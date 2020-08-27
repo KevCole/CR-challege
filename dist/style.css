@@ -33,7 +33,7 @@
     }
 
     .job-title-bar,#experience-bar{
-        border-bottom: 3px solid black;
+        border-bottom: 2px solid black;
         width: 50%;
     }
 
@@ -232,8 +232,6 @@
         position: relative;
         bottom: 20px;
         font-size: 14px;
-        
-       
     }
     
     .city-date{
@@ -267,7 +265,7 @@
     .profile, .title{
     
         position: relative;
-        top: 25em;
+        top: 30em;
         left: 6.5em;
         width: 300px;
         font-family: 'Almarai', sans-serif;
@@ -284,25 +282,25 @@
     .description-II {
         position: relative;
         width: 400;
-        top:14em;
+        top:12em;
     }
     
     .description-III{
         position: relative;
         width: 400;
-        top:20em;
+        top:18em;
     }
     
     .description-IV{
         position: relative;
         width: 400;
-        top:27em;
+        top:24em;
     }
     
     .description-V{
         position: relative;
         width: 400;
-        top:33em;
+        top:31em;
     }
     
     #skills{
@@ -314,11 +312,15 @@
         position: relative;
         width: 190px;
     }
+
+    #skills+h1 {
+        background-color: aqua;
+    }
     
     .skills-container{
         display: flex;
         justify-content: space-between;
-        width: 30%;
+        width: 45%;
     }
     
     .skills-columnII{
