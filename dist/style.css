@@ -95,6 +95,11 @@
         font-size: 13px;s
     }
 
+    .resume-section,.last-name{
+        font-family: 'Almarai', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+
 }
 
 @media screen and (min-width:1400px){
