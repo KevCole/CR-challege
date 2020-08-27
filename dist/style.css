@@ -94,11 +94,12 @@
         width: 400;
         font-size: 13px;s
     }
-
-    .resume-section,.last-name{
+    
+    .resume-section{
         font-family: 'Almarai', sans-serif;
         font-weight: 800;
-        font-size: 40px;
+        font-size: 20px;
+    }
 
 }
 
