@@ -2,13 +2,15 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width:0px) and (max-width:1399px){
+@media screen and (min-width:0px) and (max-width:1399px) {
 
-    main{
+    main {
         background-image: url(/.images/round.png);
+        margin-bottom: 2%;
     }
 
-    .header-container{
+
+    .header-container {
         margin: 0 auto;
         padding-top: 5%;
         background-color: white;
@@ -17,69 +19,78 @@
         padding-left: 2%;
     }
 
-    .left,.middle,.right{
+    .left,
+    .middle,
+    .right {
         width: 100vw;
         height: auto;
         margin: 0 auto;
     }
 
-    h1{
+    h1 {
 
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 30px;
-    font-style: 'light';
-    margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 30px;
+        font-style: 'light';
+        margin: 0;
     }
 
-    .job-title-bar,#experience-bar{
+    .job-title-bar,
+    #experience-bar {
         border-bottom: 2px solid black;
         width: 50%;
     }
 
-    .socials{
+    .socials {
         display: flex;
         width: 80%;
     }
-    .icon{
+
+    .icon {
         margin-top: 3%;
         padding-right: 2%;
     }
 
-    .title,.date{
+    .title,
+    .date {
         width: 300px;
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         font-size: 13px;
     }
 
-    .job-title{
+    .job-title {
         font-family: 'Almarai', sans-serif;
         font-weight: 700;
         font-size: 20px;
-        
+
     }
 
-    .description-paragraph,.profile,.paragraph,h4.date,.city{
+    .description-paragraph,
+    .profile,
+    .paragraph,
+    h4.date,
+    .city {
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         font-size: 13px;
         width: 90%;
     }
 
-    h4.date{
-        font-size:14px ;
+    h4.date {
+        font-size: 14px;
         font-weight: 400;
     }
 
-    .skills-container{
+    .skills-container {
         font-family: 'Almarai', sans-serif;
         font-weight: 500;
         font-size: 15px;
         display: flex;
     }
 
-    .skills-columnI{
+    .skills-columnI {
         padding-right: 5%;
     }
 
@@ -87,42 +98,64 @@
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         font-size: 15px;
-    }  
-    
-    .counter{
+    }
+
+    .counter {
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         width: 400;
-        font-size: 13px;s
+        font-size: 13px;
+        s
     }
-    
-    .resume-section{
+
+    .resume-section {
         font-family: 'Almarai', sans-serif;
         font-weight: 800;
         font-size: 20px;
     }
 
-   .last-name{
-    font-size: 20px;
-    font-weight: 800;
-   }
+    .last-name {
+        font-size: 20px;
+        font-weight: 800;
+    }
 
+    .aws {
+        position: absolute;
+    }
+
+    .verification {
+        position: relative;
+        bottom: 1em;
+    }
+
+    #education {
+        padding-bottom: 10%;
+        text-decoration: none;
+    }
+
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
 }
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1400px) {
 
     body {
         margin: 0;
 
-        
+
     }
-    
-    
-    
-    main{
+
+
+
+    main {
         background-image: url(./images/round.png);
     }
-    
+
     .header-container {
         display: flex;
         flex-direction: row;
@@ -131,46 +164,46 @@
         margin: 0 auto;
         padding-top: 5%;
         background-color: white;
-        
-        
+
+
     }
-    
-    
-    
+
+
+
     .left {
-        
+
         width: 25vw;
         height: 90vw;
         margin: 0;
-       
+
     }
-    
+
     .middle {
-       
+
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         height: 90vw;
         width: 25vw;
-       
-    
+
+
     }
-    
+
     .right {
-       
+
         width: 25vw;
         height: 90vw;
-    
+
     }
-    
-    #rectangle{
+
+    #rectangle {
         position: relative;
-        top:20em;
+        top: 20em;
         left: 5em;
-        
-        
+
+
     }
-    
+
     #name,
     #last-name {
         width: 15em;
@@ -178,53 +211,54 @@
     }
 
 
-    .last-name{
+    .last-name {
         position: relative;
         top: .8em;
     }
-    
-    .first-name{
+
+    .first-name {
         position: relative;
         top: 1.7em;
     }
-    
-    
+
+
     .socials {
         position: relative;
         left: 4.5em;
         top: 20em;
         width: 80%;
     }
-    
+
     #experience-bar {
         border-bottom: 3px solid black;
         width: 90%;
     }
-    
-    .job-title-bar{
+
+    .job-title-bar {
         border-bottom: 3px solid black;
         width: 60%;
     }
-    
-    .resume-section,.last-name{
+
+    .resume-section,
+    .last-name {
         font-family: 'Almarai', sans-serif;
         font-weight: 800;
         font-size: 40px;
 
     }
 
-    .job-title{
+    .job-title {
         font-family: 'Almarai', sans-serif;
         font-weight: 700;
     }
-    
-    .job-description{
+
+    .job-description {
         width: 400px;
         height: 100px;
         flex-wrap: wrap;
     }
-    
-    .description-paragraph{
+
+    .description-paragraph {
         position: relative;
         bottom: 1em;
         width: 400px;
@@ -233,49 +267,50 @@
         padding-right: 2%;
         font-size: 13px;
     }
-    
-    .column{
+
+    .column {
         flex: 1;
     }
-    
-    .date{
+
+    .date {
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         position: relative;
         bottom: 20px;
         font-size: 14px;
     }
-    
-    .city-date{
+
+    .city-date {
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         font-size: 14px;
         position: relative;
         bottom: 1.5em;
     }
-    
-    #GA{
+
+    #GA {
         position: relative;
         bottom: 1.5em;
     }
-    
-    #AWS{
+
+    #AWS {
         position: relative;
         bottom: 3em;
     }
-    
-    #projects{
+
+    #projects {
         position: relative;
-       
+
     }
-    
-    .icon{
+
+    .icon {
         display: inline-block;
         margin: 4%;
     }
-    
-    .profile, .title{
-    
+
+    .profile,
+    .title {
+
         position: relative;
         top: 30em;
         left: 6.5em;
@@ -284,43 +319,43 @@
         font-weight: 300;
         font-size: 13px;
     }
-    
-    
-    #jobII{
+
+
+    #jobII {
         position: relative;
         top: 20em;
     }
-    
+
     .description-II {
         position: relative;
         width: 400;
-        top:12em;
+        top: 15em;
     }
-    
-    .description-III{
+
+    .description-III {
         position: relative;
         width: 400;
-        top:18em;
+        top: 21em;
     }
-    
-    .description-IV{
+
+    .description-IV {
         position: relative;
         width: 400;
-        top:24em;
+        top: 26em;
     }
-    
-    .description-V{
+
+    .description-V {
         position: relative;
         width: 400;
-        top:31em;
+        top: 33em;
     }
-    
-    #skills{
+
+    #skills {
         position: relative;
         top: 4em;
     }
-    
-    #skills-bar{
+
+    #skills-bar {
         position: relative;
         width: 190px;
     }
@@ -328,31 +363,31 @@
     #skills+h1 {
         background-color: aqua;
     }
-    
-    .skills-container{
+
+    .skills-container {
         display: flex;
         justify-content: space-between;
         width: 45%;
     }
-    
-    .skills-columnII{
-    
+
+    .skills-columnII {
+
         font-family: 'Almarai', sans-serif;
         font-weight: 500;
         font-size: 15px;
-        
-    
+
+
     }
-    
-    .skills-columnI{
-    
+
+    .skills-columnI {
+
         font-family: 'Almarai', sans-serif;
         font-weight: 500;
         font-size: 15px;
         padding-right: 20%;
-       
+
     }
-    
+
     .paragraph {
         position: relative;
         top: 1em;
@@ -362,25 +397,42 @@
         width: 400;
         font-size: 13px;
     }
-    
-    em{
+
+    em {
         font-weight: 400;
     }
-    
-    #education{
+
+    #education {
         position: relative;
         top: 8em;
     }
 
-    .counter{
+    .counter {
         font-family: 'Almarai', sans-serif;
         font-weight: 300;
         width: 400;
         font-size: 13px;
         position: relative;
-        top:30em;
+        top: 30em;
         left: 7em;
     }
-    
+
+    .aws {
+        position: relative;
+    }
+
+    .verification {
+        position: absolute;
+        top: 1.5em;
+    }
+
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+
 
 }
