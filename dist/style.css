@@ -135,11 +135,11 @@
 
     a:link {
         text-decoration: none;
-      }
-      
-      a:visited {
+    }
+
+    a:visited {
         text-decoration: none;
-      }
+    }
 }
 
 @media screen and (min-width:1400px) {
@@ -428,11 +428,11 @@
 
     a:link {
         text-decoration: none;
-      }
-      
-      a:visited {
+    }
+
+    a:visited {
         text-decoration: none;
-      }
+    }
 
 
 }
