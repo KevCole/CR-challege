@@ -4,25 +4,33 @@
 
 @media screen and (min-width:0px) and (max-width:1399px) {
 
+    body {
+        margin:0;
+    }
+
+    
     main {
-        background-image: url(/.images/round.png);
-        margin-bottom: 2%;
+        height: 120em;
+       
+        background-image: url(./images/round.png);             
     }
 
 
     .header-container {
+       
         margin: 0 auto;
         padding-top: 5%;
         background-color: white;
-        width: 100vw;
-        height: 100vh;
-        padding-left: 2%;
+        width: 90vw;
+        height: 115em;
+
+       
     }
 
     .left,
     .middle,
     .right {
-        width: 100vw;
+        width: 90vw;
         height: auto;
         margin: 0 auto;
     }
@@ -140,20 +148,19 @@
     a:visited {
         text-decoration: none;
     }
+
 }
 
 @media screen and (min-width:1400px) {
 
     body {
         margin: 0;
-
-
     }
 
 
 
     main {
-        background-image: url(./images/round.png);
+        background-image: url(./images/round.png)
     }
 
     .header-container {
@@ -164,7 +171,6 @@
         margin: 0 auto;
         padding-top: 5%;
         background-color: white;
-
 
     }
 
