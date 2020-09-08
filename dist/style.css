@@ -23,6 +23,7 @@
         background-color: white;
         width: 90vw;
         height: 135em;
+        padding: 2%;
 
 
     }
@@ -153,6 +154,7 @@
 
     }
 }
+
 
 @media screen and (min-width:1300px) {
 
