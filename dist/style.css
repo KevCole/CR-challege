@@ -2,29 +2,29 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width:0px) and (max-width:1399px) {
+@media screen and (min-width:0px) and (max-width:1299px) {
 
     body {
-        margin:0;
+        margin: 0;
     }
 
-    
+
     main {
         height: 120em;
-       
-        background-image: url(./images/round.png);             
+
+        background-image: url(./images/round.png);
     }
 
 
     .header-container {
-       
+
         margin: 0 auto;
         padding-top: 5%;
         background-color: white;
         width: 90vw;
         height: 115em;
 
-       
+
     }
 
     .left,
@@ -149,9 +149,16 @@
         text-decoration: none;
     }
 
+<<<<<<< HEAD
+    a:hover {
+        color: orangered;
+
+    }
+=======
+>>>>>>> parent of 2eada30... "style changes"
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1300px) {
 
     body {
         margin: 0;
@@ -440,5 +447,11 @@
         text-decoration: none;
     }
 
+<<<<<<< HEAD
+    a:hover {
+        color: orangered;
+    }
+=======
+>>>>>>> parent of 2eada30... "style changes"
 
 }
